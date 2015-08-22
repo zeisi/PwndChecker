@@ -47,7 +47,7 @@ public class PwnedChecker {
 		for (Map.Entry<String, List<PwndResult>> entry : results.entrySet()) {
 			System.out.println("\n" + entry.getKey() + "");
 			for (PwndResult apiResult : entry.getValue()) {
-				System.out.println("-> " + apiResult.getName() + " - " + apiResult.getDescription());
+				System.out.println("-> " + apiResult.getName());
 			}
 		}
 	}
