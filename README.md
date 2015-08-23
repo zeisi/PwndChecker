@@ -1,6 +1,10 @@
 # PwndChecker
 A simple command line application, it loads your google contacts and queries haveibeenpwned.com with all your contacts.
 
+## Why
+I was bored for a few hours and wanted to play with OAuth2.
+For this reason some of the code might be writen...sloppy...
+
 ## How to run
 Dependencies:
 * Java JDK 8
